@@ -4,7 +4,7 @@ import  file_options
 
 class :
     def __init__(self):
-        with open('recipes.txt', encoding='utf-8') as f:
+        with open('recipes.txt.txt', encoding='utf-8') as f:
             self.cook_book = {}
             for line in f:
                 dish = line.strip()
